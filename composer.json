@@ -1,0 +1,38 @@
+{
+    "name": "cesar.contreras/tradedoubler",
+    "description": "Client library for Tradedoubler OpenAPI.",
+    "type": "library",
+    "version": "v0.0.1-alpha",
+    "license": "MIT",
+    "keywords": [
+      "tradedoubler",
+      "trade",
+      "tracking",
+      "ads",
+      "affiliate"
+    ],
+    "authors": [
+        {
+            "name": "Cesar Contreras",
+            "email": "ccdl15c@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "repositories": {
+      "composer": {
+        "type": "composer",
+        "url": "http://packages.ikea.com"
+      }
+    },
+    "require": {
+      "php": "^5.4.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "tradedoubler\\": "src/"
+      }
+    }
+}
